@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: #1C1C1C;
+    font-family: "Karla", sans-serif;
+   
+}
+.card{
+    margin: 10% auto ;
+    width: 550px;
+    height: 550px;
+    background-color: #1F2937;
+    padding: 0 40px;
+    
+    
+    
+}
+h1{
+    margin: 0;
+    width: 354px;
+    height: 80px;
+    color:white;
+    padding-top: 20% ;
+    font-size: 40px;
+    line-height: 1;
+
+}
+.green{
+    color: #4ADF86;
+}
+.descript{
+    color: #898989;
+    font-size: 21px;
+    line-height: 1;
+    margin-top: 10;
+    margin-bottom: 20px;
+}
+.btn{
+    color: white;
+    background-color: #4ADF86;
+    border: none;
+    padding: 9px 17px 9px 15px ;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.line{
+    padding-top: 40px;
+    border-bottom: 1px solid #2F3E53;
+}
+
+.pass-field{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.pass{
+    text-align: center;
+    background-color: #273549;
+    width: 50%;
+    
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    border-radius: 10px;
+    
+}
