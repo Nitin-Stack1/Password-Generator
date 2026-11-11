@@ -4,6 +4,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let pass1El = document.getElementById("pass1")
 let pass2El = document.getElementById("pass2")
 let genEl = document.getElementById("gen-Pass")
+let passLength = document.getElementById("password-length")
 
 genEl.addEventListener("click",function(){
     pass1El.textContent = gen_pass()
@@ -13,7 +14,7 @@ genEl.addEventListener("click",function(){
 
 function gen_pass(){
     let finalpass = ""
-    for(let i=0;i<15;i++){
+    for(let i=0;i<passLength.value;i++){
         let random = Math.floor(Math.random()*characters.length)
         finalpass += characters[random]
     }
